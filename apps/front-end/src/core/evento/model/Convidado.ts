@@ -4,6 +4,6 @@ export default interface Convidado{
     nome: string;
     email: string;
     confirmado: boolean;
-    possuiAcompanhante: boolean;
+    possuiAcompanhantes: boolean;
     qtdeAcompanhante: number;
 }
