@@ -32,3 +32,17 @@
 
 ```bash
 npx create-next-app@latest front-end
+```
+
+### 2. Entrar na pasta do Projeto Next.js
+```bash
+cd front-end
+```
+
+### 3. Executar Projeto com Next.js
+```bash
+npm run dev
+``` 
+
+
+
