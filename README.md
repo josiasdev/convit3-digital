@@ -26,20 +26,14 @@
 
 ---
 
-## Como iniciar o projeto
+## Como executar o projeto
 
-### 1. Criar Projeto usando Next.js
-
+### 1. Entrar na pasta do Projeto Next.js
 ```bash
-npx create-next-app@latest front-end
+cd apps/front-end/
 ```
 
-### 2. Entrar na pasta do Projeto Next.js
-```bash
-cd front-end
-```
-
-### 3. Executar Projeto com Next.js
+### 2. Executar Projeto com Next.js
 ```bash
 npm run dev
 ``` 
