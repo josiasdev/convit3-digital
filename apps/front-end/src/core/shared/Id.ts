@@ -5,5 +5,4 @@ export default class Id {
     private static hash(): string {
         return Math.random().toString(36).substring(2, 15);
     }
-
 }
