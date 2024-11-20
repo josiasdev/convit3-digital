@@ -31,8 +31,17 @@
 ```bash
 cd apps/front-end/
 ```
+### 2. Instalar React e React-dom caso tenha acontecido algum problema na hora de executar.
+```bash
+npm install react@latest react-dom@latest
+```
 
-### 2. React Qr-Code
+### 3. Atualizar o Next.js caso tenha acontecido algum problema na hora de executar.
+```bash
+npm install next@latest
+```
+
+### 3. React Qr-Code
 ```bash
 npm i react-qr-code
 ```
