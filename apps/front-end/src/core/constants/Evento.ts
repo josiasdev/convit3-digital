@@ -11,7 +11,7 @@ const eventos: Evento[] = [
         local: 'São Paulo, SP',
         descricao:
             'Um evento completo para aprender desenvolvimento fullstack do zero.',
-        imagem: 'https://play-lh.googleusercontent.com/mpBm6uxkAwCTaDL7us2iG0L-Lpxb6_vUYxJ5dBMSrKFGZoION2lUY5RkJYModzngyIk',
+        imagem: 'https://media.licdn.com/dms/image/v2/C4D12AQEXA9N70F5kaw/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1623171636159?e=1735776000&v=beta&t=vsPvxqXR7I3mfgKPnLfY5ZD7NUdGC-GFLuc6WNj0kc8',
         imagemBackground:
             'https://images.prismic.io/vaultinum/0458a9f1-e149-4037-b9aa-aa4b4fb53c25_propriete-intellectuelle-code-source-protection-compressed.jpg?auto=compress,format&rect=0,0,2400,981&w=2400&h=981',
         publicoEsperado: 200,
@@ -82,6 +82,45 @@ const eventos: Evento[] = [
         local: 'Belo Horizonte, MG',
         descricao: 'Aprenda a criar interfaces incríveis e responsivas.',
         imagem: 'https://www.simplilearn.com/ice9/free_resources_article_thumb/recact_angular_vue.jpg',
+        imagemBackground:
+            'https://www.frontendmag.com/wp-content/uploads/2023/01/easiest-front-end-framework.jpeg',
+        publicoEsperado: 150,
+        convidados: [
+            {
+                id: Id.novo(),
+                nome: 'Gabriela Rocha',
+                email: 'gabriela@example.com',
+                confirmado: true,
+                possuiAcompanhantes: true,
+                qtdeAcompanhantes: 1,
+            },
+            {
+                id: Id.novo(),
+                nome: 'Hugo Nogueira',
+                email: 'hugo@example.com',
+                confirmado: false,
+                possuiAcompanhantes: false,
+                qtdeAcompanhantes: 0,
+            },
+            {
+                id: Id.novo(),
+                nome: 'Isabela Martins',
+                email: 'isabela@example.com',
+                confirmado: true,
+                possuiAcompanhantes: false,
+                qtdeAcompanhantes: 0,
+            },
+        ],
+    },
+    {
+        id: Id.novo(),
+        alias: 'evento-dev-backend',
+        senha: 'back123',
+        nome: 'Bootcamp de Desenvolvimento Back-End Node.js',
+        data: new Date('2024-11-15T09:00:00Z'),
+        local: 'Quixadá, CE',
+        descricao: 'Participe do Bootcamp de Desenvolvimento Back-End com Node.js e domine as melhores práticas para criar APIs robustas, rápidas e escaláveis.',
+        imagem: 'https://www.luiztools.com.br/wp-content/uploads/2020/08/nodejs.jpg',
         imagemBackground:
             'https://www.frontendmag.com/wp-content/uploads/2023/01/easiest-front-end-framework.jpeg',
         publicoEsperado: 150,
