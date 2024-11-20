@@ -25,6 +25,18 @@
 - **PostgreSQL** <img src="./iconesREADME/postgresql.png" alt="PostgreSQL" style="width: 30px; height: 30px; margin-left: 10px;">
 
 ---
+## Instalar pacotes
+
+### 1. Entrar na pasta do projeto
+```bash
+cd apps/front-end/
+```
+
+### 2. React Qr-Code
+```bash
+npm i react-qr-code
+```
+
 
 ## Como executar o projeto
 
