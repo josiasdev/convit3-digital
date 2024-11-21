@@ -15,8 +15,8 @@ export default function DashboardEvento(props: DashboardEventoProps){
     return(
         <div className="flex flex-col gap-2">
             <div className="flex gap-2 self-stretch">
-                <InformacoesEvento evento={props.evento} className="flex-1"/>
-                <AcessarViaQrCode evento={props.evento}/>
+                <InformacoesEvento evento={props.evento} className="flex-1" />
+                <AcessarViaQrCode evento={props.evento} />
             </div>
             <div className="grid grid-cols-3 gap-6 mt-4">
                 <Estatistica
@@ -40,15 +40,15 @@ export default function DashboardEvento(props: DashboardEventoProps){
                 <span>Atualizar Lista de Convidados</span>
             </button>
 
-            <span className="flex py-2 text-tl font-bold text-white/80">
+            <span className="flex py-2 text-xl font-bold text-white/80">
                 Convidados que confirmaram PRESENÇA
-            </span >
-            <ListaConvidados convidados={props.presentes}/>
+            </span>
+            <ListaConvidados convidados={props.presentes} />
 
-            <span className="flex py-2 text-tl font-bold text-white/80">
+            <span className="flex py-2 text-xl font-bold text-white/80">
                 Convidados que confirmaram AUSÊNCIA
             </span>
-            <ListaConvidados convidados={props.ausentes}/>
+            <ListaConvidados convidados={props.ausentes} />
         </div>
     );
 }
