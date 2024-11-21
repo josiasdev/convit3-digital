@@ -18,7 +18,7 @@ export default function PaginaAdminEventos(props: any) {
         return total + convidado.qtdeAcompanhantes + 1;
     },
         0
-    );
+    ) ?? 0;
 
     const carregarEvento = () => {
         const evento = eventos.find(ev => ev.id === id && ev.senha === senha);
@@ -31,11 +31,12 @@ export default function PaginaAdminEventos(props: any) {
 
     return (
         <div className="flex flex-col items-center">
-            {evento ? (
-                <DashboardEvento evento={evento} />
-            ) : (
-                <FormSenhaEvento />
-            )}
+            {evento ? <DashboardEvento
+            evento={evento}
+            presentes={presentes}
+            ausentes={ausentes}
+            totalGeral={totalGeral}
+            /> : <FormSenhaEvento />}
         </div>
     )
 }
