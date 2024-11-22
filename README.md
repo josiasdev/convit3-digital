@@ -46,15 +46,32 @@ npm install next@latest
 npm i react-qr-code
 ```
 
+### 4. Instalar Nest.JS
+```
+npm i -g @nestjs/cli
+```
 
-## Como executar o projeto
 
-### 1. Entrar na pasta do Projeto Next.js
+## Como executar o projeto Front-End:
+
+### 1. Entrar na pasta do Projeto front-end com Next.js
 ```bash
 cd apps/front-end/
 ```
 
-### 2. Executar Projeto com Next.js
+### 2. Executar Projeto front-end com Next.js
 ```bash
 npm run dev
+```
+
+## Como executar o projeto Back-End:
+
+### 1. Entrar na pasta do Projeto back-end com Nest.js
+```bash
+cd apps/back-end/
+```
+
+### 2. Executar Projeto back-end com Nest.js
+```bash
+npm run start
 ```
