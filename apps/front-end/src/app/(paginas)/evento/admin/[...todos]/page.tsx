@@ -14,7 +14,7 @@ export default function PaginaAdminEventos(props: any) {
     const presentes = evento?.convidados.filter((c) => c.confirmado) ?? [];
     const ausentes = evento?.convidados.filter((c) => !c.confirmado) ?? [];
 
-    const totalGeral = evento?.convidados.reduce((total: number, convidado: Convidado) => {
+    const totalGeral = presentes?.reduce((total: number, convidado: Convidado) => {
         return total + convidado.qtdeAcompanhantes + 1;
     },
         0
