@@ -60,6 +60,20 @@ npm i -g @nestjs/cli
 ```
 npm i npm-run-all
 ```
+### 6. Instalar o tsup:
+```
+npm i -D tsup
+```
+
+### 7. Instalar o UUID (id único):
+```
+npm i uuid
+```
+
+### 8. Instalar o Types/uuid:
+```
+npm i -D @types/uuid
+```
 
 
 ## Como executar o projeto usando o NPM-RUN-ALL:
