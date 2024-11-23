@@ -56,27 +56,15 @@ npm i react-qr-code
 npm i -g @nestjs/cli
 ```
 
-
-## Como executar o projeto Front-End:
-
-### 1. Entrar na pasta do Projeto front-end com Next.js
-```bash
-cd apps/front-end/
+### 5. Instalar o NPM-RUN-ALL:
+```
+npm i npm-run-all
 ```
 
-### 2. Executar Projeto front-end com Next.js
-```bash
+
+## Como executar o projeto usando o NPM-RUN-ALL:
+
+### 1. Executando o projeto:
+```
 npm run dev
-```
-
-## Como executar o projeto Back-End:
-
-### 1. Entrar na pasta do Projeto back-end com Nest.js
-```bash
-cd apps/back-end/
-```
-
-### 2. Executar Projeto back-end com Nest.js
-```bash
-npm run start
 ```
