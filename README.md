@@ -77,11 +77,22 @@ npm i uuid
 npm i -D @types/uuid
 ```
 
-### 9. Instalar o Prisma Orm:
+### 9. Prisma Orm:
+
+### 9.1 Entrar na pasta do back-end:
+```
+cd apps/back-end
+```
+
+### 9.2 Instalar o prisma orm:
 ```
 npm install prisma --save-dev
 ```
 
+### 9.3 Iniciar o prisma e seta banco de dados SqlLite:
+```
+npx prisma init --datasource-provider sqlite
+```
 
 ## Como executar o projeto usando o NPM-RUN-ALL:
 
