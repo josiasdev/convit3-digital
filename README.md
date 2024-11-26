@@ -94,6 +94,11 @@ npm install prisma --save-dev
 npx prisma init --datasource-provider sqlite
 ```
 
+### 9.4 Criando Prisma Client:
+```
+npx prisma migrate dev
+```
+
 ## Como executar o projeto usando o NPM-RUN-ALL:
 
 ### 1. Executando o projeto:
