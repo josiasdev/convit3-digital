@@ -99,6 +99,19 @@ npx prisma init --datasource-provider sqlite
 npx prisma migrate dev
 ```
 
+## Nest:
+
+### Gerando um modulo usando Nest:
+```
+nest generate module eventos
+```
+
+### Gerando um Controller:
+```
+nest generate controller eventos --flat --no-spec
+```
+
+
 ## Como executar o projeto usando o NPM-RUN-ALL:
 
 ### 1. Executando o projeto:
