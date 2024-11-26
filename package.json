@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "<div align=\"center\" style=\"display: flex; justify-content: center; align-items: center;\">   <img src=\"./apps/front-end/public/logo.svg\" alt=\"Logo\" style=\"width: 50px; height: 50px; margin-right: 10px;\">   <h1 style=\"font-weight: bold; margin: 0;\">Convit3 Digital</h1> </div>",
   "scripts": {
-    "dev": "run-p dev:*",
-    "dev:frontend": "cd apps/front-end && npm run dev",
-    "dev:backend" : "cd apps/back-end && npm run start:dev"
+    "dev": "run-p packages:* apps:*",
+    "apps:frontend" : "cd apps/front-end && npm run dev",
+    "apps:backend"  : "cd apps/back-end && npm run start:dev",
+    "packages:core" : "cd packages/core && npm run dev"
   },
   "keywords": [],
   "author": "",

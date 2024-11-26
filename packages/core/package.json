@@ -1,9 +1,11 @@
 {
   "name": "core",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsup src/index.ts --dts --watch",
+    "build": "tsup src/index.ts --dts --minify"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +15,7 @@
     "uuid": "^11.0.3"
   },
   "devDependencies": {
-    "@types/uuid": "^10.0.0"
+    "@types/uuid": "^10.0.0",
+    "tsup": "^8.3.5"
   }
 }
