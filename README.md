@@ -27,7 +27,7 @@
 
 ### Banco de Dados Relacional <img src="./iconesREADME/bd.png" alt="Banco de Dados" style="width: 50px; height: 50px; margin-left: 10px;">
 
-- **SqlLite** <img src="./iconesREADME/sql lite.jpeg" alt="SqlLite" style="width: 50px; height: 50px; margin-left: 10px;">
+- **SqLite** <img src="./iconesREADME/sql lite.jpeg" alt="Sq Lite" style="width: 50px; height: 50px; margin-left: 10px;">
 
 - **PostgreSQL** <img src="./iconesREADME/postgresql.png" alt="PostgreSQL" style="width: 30px; height: 30px; margin-left: 10px;">
 
