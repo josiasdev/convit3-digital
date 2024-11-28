@@ -111,6 +111,16 @@ nest generate module eventos
 nest generate controller eventos --flat --no-spec
 ```
 
+### Gerando Modulo db:
+```
+nest generate module db
+```
+
+### Gerando um provedor:
+```
+cd src/db/
+nest generate provider prisma --flat --no-spec
+```
 
 ## Como executar o projeto usando o NPM-RUN-ALL:
 
