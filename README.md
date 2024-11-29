@@ -122,6 +122,13 @@ cd src/db/
 nest generate provider prisma --flat --no-spec
 ```
 
+### Gerando um provedor para evento:
+```
+cd apps/back-end/src/eventos/
+nest generate provider evento.prisma --flat --no-spec
+```
+
+
 ## Como executar o projeto usando o NPM-RUN-ALL:
 
 ### 1. Executando o projeto:
