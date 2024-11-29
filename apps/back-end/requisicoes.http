@@ -7,14 +7,15 @@ GET http://localhost:4000/eventos
 GET http://localhost:4000/eventos/f8db5c49-fffd-4cc3-baf7-ad420c24f66e
 
 ###
-GET http://localhost:4000/eventos/validar/evento-fullstack-2026/f8db5c49-fffd-4cc3-baf7-ad420c24f66e
+GET http://localhost:4000/eventos/validar/evento-fullstack/ad34c137-a956-4820-8847-5b6c7b1dd7f8
 
 
 ###
 POST http://localhost:4000/eventos/acessar
 Content-Type: application/json
+
 {
-    "evento": "3yijesjjwo8-wu9qzc2pgv8-rzrliqu3dia",
+    "id": "d8472719-84e5-4bfe-ae6a-9c3a89bd3273",
     "senha": "back123"
 }
 
@@ -27,7 +28,7 @@ Content-Type: application/json
     "nome": "Josias",
     "email": "josiasmartins098@gmail.com",
     "confirmado": true,
-    "possuiAcompanhante": true,
+    "possuiAcompanhantes": true,
     "qtdeAcompanhantes": 100
 }
 
@@ -36,7 +37,7 @@ POST http://localhost:4000/eventos
 Content-Type: application/json
 
 {
-    "alias": "semana-formacao-dev",
+    "alias": "semana-formacao-dev 2025",
     "nome": "Evento Semana Formação.DEV",
     "data": "2025-12-31T23:00",
     "local": "São Paulo",
