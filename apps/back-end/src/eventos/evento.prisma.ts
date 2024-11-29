@@ -8,7 +8,10 @@ export class EventoPrisma {
     }
     salvar(evento: Evento) {
         return this.prisma.evento.create({
-            data: evento as any,
+            data: {
+                ...(evento as any),
+                convidados: {create: evento.convidados},
+            },
         });
     }
     salvarConvidado(evento: Evento, convidado: Convidado) {
