@@ -1,8 +1,12 @@
 import { Controller, Get, Param, Post, Body } from '@nestjs/common';
 import { complementarConvidado, complementarEvento, Convidado, Data, Evento, eventos, Id } from 'core';
+import { EventoPrisma } from './evento.prisma';
 
 @Controller('eventos')
 export class EventosController {
+    constructor(readonly repo: EventoPrisma){
+        
+    }
 
     @Post()
     async salvarEvento(@Body()evento: Evento){
@@ -42,6 +46,7 @@ export class EventosController {
 
     @Get()
     async buscarEventos() {
+        const eventos = await this.repo.buscarTodos();
         return eventos.map(this.serializar);
     }
 
@@ -78,6 +83,6 @@ export class EventosController {
         return {
             ...evento,
             data: Data.desformatar(evento.data),
-        };
+        } as Evento ;
     }
 }
