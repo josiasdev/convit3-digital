@@ -1,6 +1,6 @@
 {
   "name": "front-end",
-  "version": "0.1.0",
+  "version": "1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,11 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "core" : "*",
+    "@radix-ui/react-toast": "^1.2.2",
+    "@tabler/icons-react": "^3.23.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "core": "*",
+    "lucide-react": "^0.462.0",
     "next": "^15.0.3",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "react-qr-code": "^2.0.15"
+    "react": "18",
+    "react-dom": "18",
+    "react-qr-code": "^2.0.15",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
