@@ -3,6 +3,7 @@ import Informacao from "../shared/informacao"
 
 export interface InformacoesEventoProps {
     evento: Evento;
+    esconderNome?: boolean;
     className?: string;
 }
 
@@ -10,7 +11,8 @@ export default function InformacoesEvento(props: InformacoesEventoProps) {
     const { evento } = props;
     return (
         <div className={`flex flex-col gap-2 ${props.className ?? ""}`}>
-            <div className="flex-1 flex items-center gap-4 border border-zinc-800 px-6 py-3 rounded-lg">
+            {props.esconderNome ? null :(
+                <div className="flex-1 flex items-center gap-4 border border-zinc-800 px-6 py-3 rounded-lg">
                 <span className="text-2xl font-black">
                     {evento.alias}:
                 </span>
@@ -18,8 +20,8 @@ export default function InformacoesEvento(props: InformacoesEventoProps) {
                     {evento.nome}
                 </span>
             </div>
+            )}
             <div className="flex gap-2 ">
-
                 <Informacao label="Data:" >
                     <span>
                         {new Date(evento.data!).toLocaleDateString()}
