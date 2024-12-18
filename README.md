@@ -7,131 +7,48 @@
     <b>Convit3 Digital é uma plataforma para criar e gerenciar eventos digitais, permitindo acompanhar a confirmação de presença dos participantes, visualizar quem confirmou ou recusou o convite, e organizar todos os detalhes em um só lugar.</b>
 </p>
 
+Construindo com:
 ---
-
-## Tecnologias <img src="./iconesREADME/tecnologia.png" alt="Logo Tecnologia" style="width: 50px; height: 50px; margin-left: 10px;">
----
-
 ### Front-end
-- **React.js** <img src="./iconesREADME/react.svg" alt="React.js" style="width: 30px; height: 30px; margin-left: 10px;">
-- **Next.js** <img src="./iconesREADME/nextjs.png" alt="Next.js" style="width: 30px; height: 30px; margin-left: 10px;">
-- **TypeScript** <img src="./iconesREADME/typescript.png" alt="TypeScript" style="width: 30px; height: 30px; margin-left: 10px;">
-- **Tailwind CSS** <img src="./iconesREADME/tailwindcss.png" alt="Tailwind CSS" style="width: 30px; height: 30px; margin-left: 10px;">
+[![React.js](https://skillicons.dev/icons?i=react)](https://react.dev)<br>
+[![Next.js](https://skillicons.dev/icons?i=nextjs)](https://nextjs.org)<br>
+[![Tailwind CSS](https://skillicons.dev/icons?i=tailwind)](https://tailwindcss.com)
 
 ---
 
 ### Back-end
-- **Nest.js** <img src="./iconesREADME/nestjs.svg" alt="Nest.js" style="width: 50px; height: 50px;">
+[![Node.js](https://skillicons.dev/icons?i=nodejs)](https://nodejs.org/pt)<br>
+[![TypeScript](https://skillicons.dev/icons?i=ts)](https://www.typescriptlang.org)<br>
+[![Nest.js](https://skillicons.dev/icons?i=nestjs)](https://nestjs.com)<br>
+[![Prisma](https://skillicons.dev/icons?i=prisma)](https://www.prisma.io)
 
 ---
 
-### Banco de Dados Relacional <img src="./iconesREADME/bd.png" alt="Banco de Dados" style="width: 50px; height: 50px; margin-left: 10px;">
+### Banco de Dados Relacional
 
-- **SqLite** <img src="./iconesREADME/sql lite.jpeg" alt="Sq Lite" style="width: 50px; height: 50px; margin-left: 10px;">
+[![SqLite](https://skillicons.dev/icons?i=sqlite)](https://www.sqlite.org)
 
-- **PostgreSQL** <img src="./iconesREADME/postgresql.png" alt="PostgreSQL" style="width: 30px; height: 30px; margin-left: 10px;">
+## 1 Executando o projeto:
 
----
-## Instalar pacotes
-
-### 1. Entrar na pasta do projeto
-```bash
-cd apps/front-end/
+### 1.1 Clone o repositório:
 ```
-### 2. Instalar React e React-dom caso tenha acontecido algum problema na hora de executar.
-```bash
-npm install react@latest react-dom@latest
+git clone https://github.com/josiasdev/convit3-digital.git
 ```
 
-### 3. Atualizar o Next.js caso tenha acontecido algum problema na hora de executar.
-```bash
-npm install next@latest
+### 1.2 Instale as dependências do Front-End:
+```
+cd apps/front-end
+npm install
 ```
 
-### 3. React Qr-Code
-```bash
-npm i react-qr-code
-```
-
-### 4. Instalar Nest.JS
-```
-npm i -g @nestjs/cli
-```
-
-### 5. Instalar o NPM-RUN-ALL:
-```
-npm i npm-run-all
-```
-### 6. Instalar o tsup:
-```
-npm i -D tsup
-```
-
-### 7. Instalar o UUID (id único):
-```
-npm i uuid
-```
-
-### 8. Instalar o Types/uuid:
-```
-npm i -D @types/uuid
-```
-
-### 9. Prisma Orm:
-
-### 9.1 Entrar na pasta do back-end:
+### 1.3 Instale as dependências do Back-End:
 ```
 cd apps/back-end
+npm install
 ```
 
-### 9.2 Instalar o prisma orm:
+## 2 Rodando o Convit3 Digital:
 ```
-npm install prisma --save-dev
-```
-
-### 9.3 Iniciar o prisma e seta banco de dados SqlLite:
-```
-npx prisma init --datasource-provider sqlite
-```
-
-### 9.4 Criando Prisma Client:
-```
-npx prisma migrate dev
-```
-
-## Nest:
-
-### Gerando um modulo usando Nest:
-```
-nest generate module eventos
-```
-
-### Gerando um Controller:
-```
-nest generate controller eventos --flat --no-spec
-```
-
-### Gerando Modulo db:
-```
-nest generate module db
-```
-
-### Gerando um provedor:
-```
-cd src/db/
-nest generate provider prisma --flat --no-spec
-```
-
-### Gerando um provedor para evento:
-```
-cd apps/back-end/src/eventos/
-nest generate provider evento.prisma --flat --no-spec
-```
-
-
-## Como executar o projeto usando o NPM-RUN-ALL:
-
-### 1. Executando o projeto:
-```
+cd convit3\ digital/
 npm run dev
 ```
