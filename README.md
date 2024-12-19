@@ -25,7 +25,7 @@
     <img src="./icones/home.png" alt="Image Example" width="1280px">
 </p>
 
-<h2 id="started">📌 Sobre</h2>
+<h2 id="about">📌 Sobre</h2>
 <b>Convit3 Digital</b> é uma plataforma intuitiva para criar e gerenciar eventos digitais. Com ela, você pode acompanhar as confirmações de presença dos participantes, visualizar quem confirmou ou recusou os convites e organizar todos os detalhes do evento em um único lugar.
 
 <h2 id="started">🚀 Começando</h2>
