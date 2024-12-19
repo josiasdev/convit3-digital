@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-    <img src="./icones/home.png" alt="Image Example" width="400px">
+    <img src="./icones/home.png" alt="Image Example" width="1280px">
 </p>
 
 <h2 id="started">📌 Sobre</h2>
