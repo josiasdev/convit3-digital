@@ -6,10 +6,15 @@ import Janela from "@/components/shared/Janela";
 import Processando from "@/components/shared/Processando";
 import useEvento from "@/data/hooks/useEvento";
 import { Evento } from "core";
-import { use, useEffect } from "react";
+import { useEffect } from "react";
 
-export default function PaginaConvite(props: any) {
-  const params: any = use(props.params);
+interface PaginaConviteProps {
+  params: {
+    alias: string;
+  };
+}
+
+export default function PaginaConvite({params}: PaginaConviteProps) {
   const {
     evento,
     convidado,
@@ -20,7 +25,7 @@ export default function PaginaConvite(props: any) {
 
   useEffect(() => {
     carregarEvento(params.alias);
-  }, [params.alias]);
+  }, [params.alias, carregarEvento]);
 
   return evento?.alias ? (
     <div>
