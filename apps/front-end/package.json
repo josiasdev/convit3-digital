@@ -1,36 +1,36 @@
 {
-  "name": "front-end",
-  "version": "1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+  "nome": "front-end",
+  "versão": "1,0",
+  "privado": verdadeiro,
+  "roteiros": {
+    "dev": "próximo dev",
+    "construir": "próxima construção",
+    "iniciar": "próximo começo",
+    "feitiço": "próximo fiapo"
   },
-  "dependencies": {
+  "dependências": {
     "@radix-ui/react-toast": "^1.2.2",
-    "@tabler/icons-react": "^3.23.0",
-    "class-variance-authority": "^0.7.1",
+    "@tabler/ícones-reagir": "^3.23.0",
+    "autoridade de variação de classe": "^0.7.1",
     "clsx": "^2.1.1",
-    "core": "*",
-    "lucide-react": "^0.462.0",
-    "next": "^15.0.3",
-    "react": "18",
-    "react-dom": "18",
-    "react-qr-code": "^2.0.15",
-    "tailwind-merge": "^2.5.5",
-    "tailwindcss-animate": "^1.0.7",
-    "tunnel-agent": "^0.6.0"
+    "núcleo": "*",
+    "lucídio-reagir": "^0.462,0",
+    "próximo": "^15.0.3",
+    "reagir": "18",
+    "reagir-dom": "18",
+    "código reage-qr": "^2.0.15",
+    "fusão do vento traseiro": "^2.5.5",
+    "tailwindcss-animado": "^1.0.7",
+    "agente de túnel": "^0,6,0"
   },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
+  "devDependências": {
+    "@tipos/nó": "^20",
+    "@tipos/reagir": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
-    "postcss": "^8",
+    "pós-css": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "tipo": "^5"
   }
 }
