@@ -31,16 +31,16 @@
 <h2 ue="iniciado">🚀 Começando</h2>
 
 ### Instale as dependências do Front-End:
-`bash
-aplicativos cd/front-end
-npm instalar
-`
+```bash
+cd apps/front-end
+npm install
+```
 
 ### Instale as dependências do Back-End:
-`bash
-aplicativos cd/back-end
-npm instalar
-`
+```bash
+cd apps/back-end
+npm install
+```
 
 
 <h3>Pré-Requisitos</h3>
