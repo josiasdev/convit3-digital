@@ -48,7 +48,7 @@ Antes de começar, certifique-se de que você tem as seguintes ferramentas insta
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/josiasdev/convit3-digital.git](https://github.com/josiasdev/convit3-digital.git)
+    git clone https://github.com/josiasdev/convit3-digital
     ```
 
 2.  **Acesse o diretório do projeto:**
